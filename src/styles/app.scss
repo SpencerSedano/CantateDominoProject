@@ -5,7 +5,10 @@
 	font-family: "Montserrat", sans-serif;
 	background-color: #1a195c;
 	color: white;
+	overflow-x: hidden;
 }
 
 @import "_inicio.scss";
 @import "_navbar.scss";
+@import "_price.scss";
+@import "_spacing.scss";

@@ -3,6 +3,10 @@ import React from "react";
 //Font Awesome
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
+//Components
+import Spacing from "../components/Spacing";
+import Price from "../components/Price";
+
 //Images
 import Cantando from "../img/cantando.jpg";
 import Whatsapp from "../img/whatsapp.png";
@@ -14,9 +18,10 @@ const Inicio = () => {
 				<div className="inicio-texto">
 					<h1>Aprende canto desde 0</h1>
 					<p>
-						Desarrolla el canto con la ayuda de cantantes profesionales. It is a
-						long established fact that a reader will be distracted by the
-						readable content of a page when looking at its layout.
+						Lorem ipsum dolor sit amet consectetur adipisicing elit. Et soluta
+						unde tempora recusandae adipisci sequi cupiditate ab modi, tenetur
+						nesciunt quod. Modi optio nobis repellat, aliquam nostrum nisi
+						molestias? Voluptatum.
 					</p>
 					<button>Más Información</button>
 				</div>
@@ -27,6 +32,8 @@ const Inicio = () => {
 			<div className="whatsapp-container">
 				<img className="whatsapp" src={Whatsapp} alt="Whatsapp" />
 			</div>
+			<Spacing />
+			<Price />
 		</>
 	);
 };

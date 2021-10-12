@@ -1,0 +1,122 @@
+.container-price {
+	width: 100%;
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.price {
+	display: flex;
+	align-items: center;
+	width: 90%;
+	height: 100%;
+	padding: 2.5rem;
+	//Awesome box shadow to contrast a white background as 3D effect
+	box-shadow: #b773e8 0px 50px 100px -20px, #b773e8 0px 30px 60px -30px,
+		#b773e8 0px -2px 6px 0px inset;
+	border-radius: 25px;
+}
+
+.consulta {
+	// background-color: #5fb230;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	min-width: 30%;
+	height: 85%;
+	padding: 2rem;
+	h3 {
+		color: #e5c0ff;
+		font-size: 1.5rem;
+		text-align: center;
+	}
+	h2 {
+		font-size: 2.8rem;
+		text-align: center;
+		margin-bottom: 2rem;
+	}
+	ul {
+		display: flex;
+		flex-direction: column;
+	}
+	li {
+		display: flex;
+		flex-direction: row;
+	}
+	.cart-consulta {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		background: #85d0f0;
+		width: 45%;
+		height: 15%;
+	}
+}
+.plan1 {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	min-width: 40%;
+	height: 85%;
+	padding: 2rem;
+	h3 {
+		color: #e5c0ff;
+		font-size: 1.5rem;
+		text-align: center;
+	}
+	h2 {
+		font-size: 2.8rem;
+		text-align: center;
+		margin-bottom: 2rem;
+	}
+	ul {
+		display: flex;
+		flex-direction: column;
+	}
+	li {
+		display: flex;
+		flex-direction: row;
+	}
+	.cart-plan1 {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		background: #85d0f0;
+		width: 45%;
+		height: 15%;
+	}
+}
+.plan2 {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	min-width: 30%;
+	height: 85%;
+	padding: 2rem;
+	h3 {
+		color: #e5c0ff;
+		font-size: 1.5rem;
+		text-align: center;
+	}
+	h2 {
+		font-size: 2.8rem;
+		text-align: center;
+		margin-bottom: 2rem;
+	}
+	ul {
+		display: flex;
+		flex-direction: column;
+	}
+	li {
+		display: flex;
+		flex-direction: row;
+	}
+	.cart-plan2 {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		background: #85d0f0;
+		width: 45%;
+		height: 15%;
+	}
+}

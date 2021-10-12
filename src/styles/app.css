@@ -6,6 +6,7 @@
   font-family: "Montserrat", sans-serif;
   background-color: #1a195c;
   color: white;
+  overflow-x: hidden;
 }
 
 .inicio-container {
@@ -62,7 +63,8 @@
 
 .inicio-texto p {
   font-size: 1.5rem;
-  padding: 2rem;
+  padding: 1.5rem;
+  margin: 0 4rem;
 }
 
 .inicio-texto button {
@@ -154,5 +156,228 @@ ul a:hover {
   height: 100px;
   margin: 0rem 2rem 0rem 0rem;
   cursor: pointer;
+}
+
+.container-price {
+  width: 100%;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.price {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 90%;
+  height: 100%;
+  padding: 2.5rem;
+  -webkit-box-shadow: #b773e8 0px 50px 100px -20px, #b773e8 0px 30px 60px -30px, #b773e8 0px -2px 6px 0px inset;
+          box-shadow: #b773e8 0px 50px 100px -20px, #b773e8 0px 30px 60px -30px, #b773e8 0px -2px 6px 0px inset;
+  border-radius: 25px;
+}
+
+.consulta {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  min-width: 30%;
+  height: 85%;
+  padding: 2rem;
+}
+
+.consulta h3 {
+  color: #e5c0ff;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.consulta h2 {
+  font-size: 2.8rem;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.consulta ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.consulta li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.consulta .cart-consulta {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: #85d0f0;
+  width: 45%;
+  height: 15%;
+}
+
+.plan1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  min-width: 40%;
+  height: 85%;
+  padding: 2rem;
+}
+
+.plan1 h3 {
+  color: #e5c0ff;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.plan1 h2 {
+  font-size: 2.8rem;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.plan1 ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.plan1 li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.plan1 .cart-plan1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: #85d0f0;
+  width: 45%;
+  height: 15%;
+}
+
+.plan2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  min-width: 30%;
+  height: 85%;
+  padding: 2rem;
+}
+
+.plan2 h3 {
+  color: #e5c0ff;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.plan2 h2 {
+  font-size: 2.8rem;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.plan2 ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.plan2 li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.plan2 .cart-plan2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: #85d0f0;
+  width: 45%;
+  height: 15%;
+}
+
+.spacing {
+  width: 100vw;
+  height: 10vh;
 }
 /*# sourceMappingURL=app.css.map */
